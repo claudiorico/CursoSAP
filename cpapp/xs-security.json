@@ -1,0 +1,31 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.clr-RiskViewer",
+      "description": "Risk Viewer"
+    },
+    {
+      "name": "$XSAPPNAME.clr-RiskManager",
+      "description": "Risk Manager"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "clr-RiskViewer",
+      "description": "Risk Viewer",
+      "scope-references": [
+        "$XSAPPNAME.clr-RiskViewer"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "clr-RiskManager",
+      "description": "Risk Manager",
+      "scope-references": [
+        "$XSAPPNAME.clr-RiskManager"
+      ],
+      "attribute-references": []
+    }
+  ]
+}

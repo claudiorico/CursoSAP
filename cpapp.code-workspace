@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "cpapp"
+		},
+		{
+			"path": "tutorial\\templates"
+		},
+		{
+			"path": "..\\Curso JS"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Curso JS"
+	}
+}
